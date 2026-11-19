@@ -1,0 +1,93 @@
+{
+  "sample_counts": {
+    "train": 72,
+    "validation": 24,
+    "test": 24
+  },
+  "train_positive": 35,
+  "threshold": 0.5,
+  "validation": {
+    "n": 24,
+    "TN": 12,
+    "FP": 0,
+    "FN": 0,
+    "TP": 12,
+    "accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "log_loss": 0.0872138108339317
+  },
+  "test": {
+    "n": 24,
+    "TN": 12,
+    "FP": 0,
+    "FN": 0,
+    "TP": 12,
+    "accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "log_loss": 0.07449229980495921
+  },
+  "prior_validation": {
+    "n": 24,
+    "TN": 12,
+    "FP": 0,
+    "FN": 12,
+    "TP": 0,
+    "accuracy": 0.5,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "precision": 0.0,
+    "f1": 0.0,
+    "log_loss": 0.6935331319492363
+  },
+  "query_000111_probability": 0.9865759062601746,
+  "duplicate_feature": [
+    {
+      "extra_lumbar_copies": 0,
+      "n": 24,
+      "TN": 12,
+      "FP": 0,
+      "FN": 0,
+      "TP": 12,
+      "accuracy": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "log_loss": 0.0872138108339317
+    },
+    {
+      "extra_lumbar_copies": 1,
+      "n": 24,
+      "TN": 12,
+      "FP": 0,
+      "FN": 0,
+      "TP": 12,
+      "accuracy": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "log_loss": 0.07042546151290952
+    },
+    {
+      "extra_lumbar_copies": 5,
+      "n": 24,
+      "TN": 11,
+      "FP": 1,
+      "FN": 5,
+      "TP": 7,
+      "accuracy": 0.75,
+      "sensitivity": 0.5833333333333334,
+      "specificity": 0.9166666666666666,
+      "precision": 0.875,
+      "f1": 0.7,
+      "log_loss": 0.3853768980466595
+    }
+  ]
+}
