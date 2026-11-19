@@ -21,7 +21,7 @@ lesson-07-naive-bayes/
 ├── notebooks/naive_bayes_analysis.ipynb
 ├── src/naive_bayes.py
 ├── outputs/              # 程序生成的图表、CSV、JSON
-└── report/bys.docx       # 已完成的课程 Worksheet
+└── report/report/Lesson-07-Naive-Bayes-Completed-Worksheet.docx       # 已完成的课程 Worksheet
 ```
 
 ## 如何复现（Python 3.10+）
@@ -48,7 +48,7 @@ jupyter notebook notebooks/naive_bayes_analysis.ipynb
 - 逐条预测：`outputs/validation_predictions.csv` 和 `outputs/test_predictions.csv`
 - 汇总指标：`outputs/metrics.json`
 - 可视化：`outputs/validation_confusion_matrix.png`
-- 研究解释：`report/bys.docx`
+- 研究解释：`report/report/Lesson-07-Naive-Bayes-Completed-Worksheet.docx`
 
 关键核对目标（来自课程报告）：验证与测试 accuracy 均为1.000；验证 log loss≈0.0872、测试≈0.0745；固定查询 `x=(0,0,0,1,1,1)` 的阳性概率≈0.986576；额外复制腰痛5次后验证 accuracy≈0.750、log loss≈0.3854。**以实际运行输出为准**。
 
